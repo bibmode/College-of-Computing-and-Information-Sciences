@@ -20,5 +20,10 @@ export const Container = styled.div`
   .socialIcon {
     font-size: 3.6rem;
     color: var(--orange);
+    transition: all 0.2s;
+
+    :hover {
+      color: var(--white);
+    }
   }
 `;
