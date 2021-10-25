@@ -27,12 +27,20 @@ const SocialBar = () => {
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/channel/UCFhc1C_3G9-xc5GLAnWsTdw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <EmailIcon className="socialIcon" />
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/channel/UCFhc1C_3G9-xc5GLAnWsTdw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TwitterIcon className="socialIcon" />
           </a>
         </li>

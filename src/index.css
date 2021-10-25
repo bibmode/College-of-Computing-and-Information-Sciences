@@ -2,8 +2,13 @@
   --white: #fff;
   --black-text: #333333;
   --grey: #e0e0e0;
-  --dark-grey: #a5a5a5;
+  --dark-grey: #c7c7c7;
+
   --orange: #ff6b00;
+  --orange-red: #f54d2c;
+  --yellow: #edda31;
+  --green: #4baf5b;
+  --blue: #0e6fe6;
 }
 
 body {
@@ -11,6 +16,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   box-sizing: inherit;
+  overflow-x: hidden;
 }
 
 button {

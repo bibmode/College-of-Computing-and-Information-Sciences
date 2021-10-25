@@ -1,8 +1,8 @@
-import { Background, Menu, NavBar, Title, Wrapper } from "./Header.styles";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { Background, Title, Wrapper } from "./Header.styles";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import PauseCircleOutlineIcon from "@mui/icons-material/PauseCircleOutline";
 import { useEffect, useState } from "react";
+import NavBar from "../NavBar";
 
 const Header = () => {
   const [play, setPlay] = useState(true);
@@ -20,27 +20,7 @@ const Header = () => {
       </video>
       <Wrapper>
         {/* navigation bar */}
-        <NavBar>
-          <img
-            src="images/download__1_-removebg-preview 1 (1).png"
-            alt="ccis logo"
-          />
-          <h1>College of Information & Computing Sciences</h1>
-          <Menu>
-            <button>
-              About Us <KeyboardArrowDownIcon fontSize="large" />
-            </button>
-            <button>
-              Research and Innovation <KeyboardArrowDownIcon fontSize="large" />{" "}
-            </button>
-            <button>
-              Programs Offered <KeyboardArrowDownIcon fontSize="large" />{" "}
-            </button>
-            <button>
-              Others <KeyboardArrowDownIcon fontSize="large" />{" "}
-            </button>
-          </Menu>
-        </NavBar>
+        <NavBar />
 
         {/* title and tagline */}
         <Title>
