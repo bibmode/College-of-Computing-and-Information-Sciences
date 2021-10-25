@@ -32,10 +32,10 @@ const Programs = () => {
   ];
 
   const moveRight = () => {
-    document.querySelector("#programWrapper").style.marginLeft = "50%";
+    document.querySelector("#programWrapper").scrollBy(450, 0);
   };
   const moveLeft = () => {
-    document.querySelector("#programWrapper").style.transform = "translateX(0)";
+    document.querySelector("#programWrapper").scrollBy(-450, 0);
   };
 
   // const child = { width: `300em`, height: `100%` };
@@ -58,10 +58,10 @@ const Programs = () => {
           </Card>
         ))}
       </Wrapper>
-      <Move className="left">
+      <Move className="left" onClick={() => moveLeft()}>
         <KeyboardArrowLeftIcon className="moveIcon" />
       </Move>
-      <Move className="right">
+      <Move className="right" onClick={() => moveRight()}>
         <KeyboardArrowRightIcon className="moveIcon" />
       </Move>
     </Containment>

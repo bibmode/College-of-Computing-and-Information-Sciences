@@ -40,6 +40,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  scroll-behavior: smooth;
 
   ::-webkit-scrollbar {
     width: 0;
