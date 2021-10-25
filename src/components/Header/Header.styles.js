@@ -1,4 +1,3 @@
-import { Container, MenuList } from "@mui/material";
 import styled from "styled-components";
 
 export const Background = styled.div`
@@ -41,17 +40,60 @@ export const NavBar = styled.nav`
     margin: 0;
     width: 27rem;
     margin-left: 2rem;
-    color: #fff;
+    color: var(--white);
     margin-right: auto;
   }
 `;
 
 export const Menu = styled.div`
+  display: flex;
   button {
-    margin-left: 2rem;
-    font-size: 1.8rem;
+    margin-left: 2.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    color: #fff;
+    color: var(--white);
     background: transparent;
+    display: flex;
+    align-items: center;
+  }
+`;
+
+export const Title = styled.div`
+  width: 100%;
+  height: calc(100vh - 30rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  h2 {
+    font-size: 14.4rem;
+    letter-spacing: 5rem;
+    margin-right: -5rem;
+    text-align: center;
+    color: var(--black-text);
+  }
+
+  h3 {
+    font-size: 3.6rem;
+    color: var(--black-text);
+    /* letter-spacing: 5rem; */
+  }
+
+  button {
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+  }
+
+  .videoBtn {
+    font-size: 5rem;
+    color: var(--dark-grey);
+    transition: all 0.2s;
+
+    :hover {
+      color: var(--black-text);
+    }
   }
 `;

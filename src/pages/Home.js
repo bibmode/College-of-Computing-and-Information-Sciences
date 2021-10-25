@@ -1,7 +1,13 @@
 import Header from "../components/Header";
+import SocialBar from "../components/SocialBar";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <>
+      <SocialBar />
+      <Header />
+    </>
+  );
 };
 
 export default Home;
