@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import NewsTitle from "../components/NewsTitle";
+import NewsLatest from "../components/NewsLatest";
 import Programs from "../components/Programs";
 import SocialBar from "../components/SocialBar";
 
@@ -9,7 +9,7 @@ const Home = () => {
       <SocialBar />
       <Header />
       <Programs />
-      <NewsTitle />
+      <NewsLatest />
     </>
   );
 };
