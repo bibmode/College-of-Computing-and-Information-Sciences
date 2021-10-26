@@ -18,6 +18,10 @@ export const Containment = styled(Container)``;
 
 export const Wrapper = styled(Grid)`
   width: 100%;
+  a {
+    text-decoration: underline;
+    font-weight: 600;
+  }
 `;
 
 export const Activities = styled(Grid)`
@@ -35,7 +39,7 @@ export const Activities = styled(Grid)`
     &::before {
       content: " ";
       position: absolute;
-      top: -2rem;
+      top: -1.5rem;
       left: 0;
       height: 4rem;
       width: 18rem;
@@ -47,11 +51,32 @@ export const Activities = styled(Grid)`
   p {
     margin-bottom: 3.5rem;
   }
-
-  a {
-    text-decoration: underline;
-    font-weight: 600;
-  }
 `;
 
-export const Showcase = styled(Grid)``;
+export const Showcase = styled(Grid)`
+  text-align: left;
+  padding-inline: 3rem;
+
+  h5,
+  p {
+    font-size: 2rem;
+  }
+
+  h5 {
+    margin-block: 8rem 1rem;
+  }
+
+  p {
+    margin-bottom: 3.5rem;
+  }
+  iframe {
+    width: 100%;
+    height: 31.5rem;
+    margin-bottom: 5rem;
+  }
+
+  a {
+    margin-left: 40%;
+    font-size: 1.8rem;
+  }
+`;

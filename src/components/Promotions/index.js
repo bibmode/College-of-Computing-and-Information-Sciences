@@ -23,7 +23,22 @@ const Promotions = () => {
           </Activities>
 
           <Showcase item xs={12} sm={6}>
-            <h5>hello</h5>
+            <h5>Meet our BSIT Graduate MR. YOLLY G. PELEGRINO!</h5>
+            <p>
+              Mr. Pelegrino is an IT Business Analyst and the Business
+              Architecture & Integration Team Lead of ACCENTURE PLC in Chicago,
+              Illinois, USA!
+            </p>
+            <iframe
+              src="https://www.youtube.com/embed/NVgK0ZTSVJg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              View Details
+            </a>
           </Showcase>
         </Wrapper>
       </Containment>
