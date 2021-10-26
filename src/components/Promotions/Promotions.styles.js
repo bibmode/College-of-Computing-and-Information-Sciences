@@ -60,7 +60,11 @@ export const Activities = styled(Grid)`
 
 export const Showcase = styled(Grid)`
   text-align: left;
-  padding-inline: 3rem;
+  padding-inline: 4.5rem;
+
+  @media only screen and (max-width: 37.5em) {
+    padding-inline: 3rem;
+  }
 
   h5,
   p {

@@ -6,6 +6,7 @@ export const Container = styled.section`
   grid-template-rows: repeat(4, 10rem); */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 3vw);
+  z-index: 500;
 
   #Image1 {
     grid-column: 1 / span 2;

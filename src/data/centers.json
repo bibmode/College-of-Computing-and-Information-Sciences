@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Navigatu",
+    "accent": 0,
+    "details": "Navigatú, rooted from the word navigation and is inspired by the rich history of Butuan's Balangay Boat. We are established thru DOST-PCIEERD to take lead in the regional startup ecosystem to nurture knowledge-based enterprises by providing network engagements, relevant business development events, equipments and related proffesional support services."
+  },
+  {
+    "name": "INFORMATION AND COMMUNICATIONS TECHNOLOGY CENTER",
+    "accent": 1,
+    "details": "The ICT Center is the brains of the entire CSU information systems where all its applications are derived from the research of both student and faculty in CCIS. Through faculty-student research, enrolment systems and others are developed and tested in the ICT Center for further testing and evaluation. The developed applications which pass the quality control are incorporated to the system."
+  },
+  {
+    "name": "CENTER FOR HUMAN COMPUTER INTERACTION",
+    "accent": 2,
+    "details": "The Center for HCI (CHCI) at Caraga State University is a university-wide research center that addresses foundation of human computer interaction technology applied to learning environment, social and rural context. It is a multidisciplinary endeavor from human sciences, computational, engineering and information technologies. It fosters research and development in the area of artificial intelligence, augmented reality and other HCIs related field of specialization. It provides an avenue for students, faculty and researchers to engage on R&D activities to be financed by funding institutions"
+  }
+]
