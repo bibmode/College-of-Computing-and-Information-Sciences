@@ -5,8 +5,6 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 
-import HorizontalScroll from "react-scroll-horizontal";
-
 const Programs = () => {
   const programs = [
     {
@@ -38,11 +36,8 @@ const Programs = () => {
     document.querySelector("#programWrapper").scrollBy(-450, 0);
   };
 
-  // const child = { width: `300em`, height: `100%` };
-  // const parent = { width: `300em`, height: `30vh` };
-
   return (
-    <Containment>
+    <Containment maxWidth="xl">
       <Title>
         <h3>Explore Our Programs</h3>
         <ArrowDownwardIcon className="icon" />

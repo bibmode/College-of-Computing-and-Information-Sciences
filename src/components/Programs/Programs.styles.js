@@ -92,6 +92,7 @@ export const Card = styled.div`
     border: solid 2px var(--grey);
     color: var(--text-black);
     text-decoration: none;
+    transition: all 0.2s;
 
     :hover {
       & > * {
@@ -115,6 +116,7 @@ export const Move = styled.button`
   position: absolute;
   bottom: 35%;
   filter: opacity(0.3);
+  transition: all 0.2s;
 
   :hover {
     filter: opacity(1);

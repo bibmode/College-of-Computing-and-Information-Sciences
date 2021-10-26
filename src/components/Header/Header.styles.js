@@ -8,7 +8,6 @@ export const Background = styled.section`
   video {
     width: 100vw;
     height: 100vh;
-    z-index: -1;
     position: relative;
     top: 0;
     left: 0;

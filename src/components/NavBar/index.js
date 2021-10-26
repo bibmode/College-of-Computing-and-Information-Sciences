@@ -1,9 +1,9 @@
-import { Container, Menu } from "./NavBar.styles";
+import { Containment, Menu } from "./NavBar.styles";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const NavBar = () => {
   return (
-    <Container>
+    <Containment container maxWidth="xl" alignItems="center">
       <img
         src="images/download__1_-removebg-preview 1 (1).png"
         alt="ccis logo"
@@ -23,7 +23,7 @@ const NavBar = () => {
           Others <KeyboardArrowDownIcon fontSize="large" />{" "}
         </button>
       </Menu>
-    </Container>
+    </Containment>
   );
 };
 
