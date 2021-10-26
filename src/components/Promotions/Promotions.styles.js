@@ -25,10 +25,15 @@ export const Wrapper = styled(Grid)`
 `;
 
 export const Activities = styled(Grid)`
-  padding-block: 8rem 6rem;
-  padding-inline: 0 12rem;
+  padding-block: 10rem;
+  padding-inline: 0 clamp(3rem, 12vw, 12rem);
   text-align: left;
   font-size: 1.8rem;
+
+  @media only screen and (max-width: 37.5em) {
+    padding-inline: 3rem;
+    background-color: var(--light-grey);
+  }
 
   h3 {
     padding: 0 10rem 3rem 5rem;

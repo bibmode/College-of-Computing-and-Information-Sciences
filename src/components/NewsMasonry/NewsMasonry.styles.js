@@ -5,7 +5,7 @@ import MasonryItem from "@mui/lab/MasonryItem";
 
 export const Containment = styled(Container)`
   width: 100%;
-  height: max-content;
+  height: fit-content;
   margin-bottom: 8rem;
 `;
 
