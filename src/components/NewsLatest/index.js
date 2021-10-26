@@ -4,7 +4,7 @@ import blogs from "../../data/blogs.json";
 
 const NewsLatest = () => {
   return (
-    <Container maxWidth="xl" align="center">
+    <Container maxWidth="lg" align="center">
       <Wrapper>
         <h2>CCIS News</h2>
         <h3>The latest stories from CCIS</h3>
