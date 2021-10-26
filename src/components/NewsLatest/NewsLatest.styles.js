@@ -53,10 +53,12 @@ export const Details = styled.div`
   grid-template-areas:
     "title readmore"
     "date readmore";
+  grid-gap: 1rem;
 
   position: absolute;
   bottom: 0;
-  padding: 3rem 3.5rem;
+  padding-inline: 3rem;
+  padding-block: 3rem 5rem;
 
   h3,
   h4 {
