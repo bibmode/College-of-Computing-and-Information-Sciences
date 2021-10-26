@@ -4,7 +4,7 @@ import { Grid } from "@mui/material";
 export const Containment = styled(Grid)`
   margin-left: 50%;
   transform: translateX(-50%);
-  padding-block: 2rem;
+  padding: 2rem 2.4rem;
 
   h1 {
     width: fit-content;

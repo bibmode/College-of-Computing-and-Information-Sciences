@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import NewsTitle from "../components/NewsTitle";
 import Programs from "../components/Programs";
 import SocialBar from "../components/SocialBar";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <SocialBar />
       <Header />
       <Programs />
+      <NewsTitle />
     </>
   );
 };

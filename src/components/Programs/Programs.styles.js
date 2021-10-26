@@ -5,6 +5,7 @@ export const Containment = styled(Container)`
   width: 100vw;
   height: fit-content;
   position: relative;
+  margin-bottom: 8rem;
 
   .right {
     right: 0;
