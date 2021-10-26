@@ -6,7 +6,7 @@ const NewsMasonry = () => {
   console.log(blogs);
   return (
     <Containment maxWidth="lg">
-      <Cards columns={2} spacing={4}>
+      <Cards columns={{ xs: 1, sm: 2 }} spacing={4}>
         {blogs
           .filter((blog, index) => index !== 0)
           .map((blog, index) => (

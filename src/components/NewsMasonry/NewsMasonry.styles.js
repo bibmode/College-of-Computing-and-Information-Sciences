@@ -5,11 +5,13 @@ import MasonryItem from "@mui/lab/MasonryItem";
 
 export const Containment = styled(Container)`
   width: 100%;
-  height: fit-content;
-  padding-bottom: 5rem;
+  height: max-content;
+  margin-bottom: 8rem;
 `;
 
-export const Cards = styled(Masonry)``;
+export const Cards = styled(Masonry)`
+  height: max-content;
+`;
 
 export const Item = styled(MasonryItem)`
   #moreBtn {
