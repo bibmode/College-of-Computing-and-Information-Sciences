@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ImageGrid from "../components/ImageGrid";
 import NewsLatest from "../components/NewsLatest";
@@ -20,6 +21,8 @@ const Home = () => {
       <ImageGrid />
       <ResearchCenters />
       <ResearchExtension />
+      <SocialBar />
+      <Footer />
     </>
   );
 };

@@ -1,25 +1,32 @@
 import styled from "styled-components";
+import { Container } from "@mui/material";
 
-export const Container = styled.div`
-  position: fixed;
-  right: 0;
-  top: 50vh;
-  transform: translateY(-50%);
-  background-color: var(--black-text);
+export const Containment = styled.div`
+  background-color: var(--orange);
   z-index: 100;
+`;
 
+export const Wrapper = styled(Container)`
   ul {
+    display: flex;
     list-style: none;
-    padding: 1.5rem 1rem;
+    padding-block: 1.5rem;
 
-    li:not(:last-child) {
-      margin-bottom: 1rem;
+    li {
+      :not(:last-child) {
+        margin-right: 1rem;
+        padding-right: 1rem;
+      }
+
+      :first-of-type {
+        margin-left: auto;
+      }
     }
   }
 
   .socialIcon {
-    font-size: 3.6rem;
-    color: var(--orange);
+    font-size: 2.8rem;
+    color: var(--black-text);
     transition: all 0.2s;
 
     :hover {

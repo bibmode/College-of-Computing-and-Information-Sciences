@@ -3,7 +3,7 @@ import { Container } from "@mui/material";
 
 export const Background = styled.div`
   background-color: var(--light-grey);
-  width: 100vw;
+  width: 100%;
   height: fit-content;
 `;
 
@@ -58,7 +58,7 @@ export const Right = styled.div`
       height: 1rem;
       z-index: -1;
       background-color: var(--orange-red);
-      filter: opacity(0.5);
+      filter: opacity(0.4);
     }
   }
 
