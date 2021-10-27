@@ -1,4 +1,4 @@
-import { Containment, Center, Item } from "./ResearchCenters.styles";
+import { Containment, Center } from "./ResearchCenters.styles";
 import centers from "../../data/centers.json";
 
 const ResearchCenters = () => {

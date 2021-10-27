@@ -1,14 +1,13 @@
 import styled from "styled-components";
-import { Container, Grid } from "@mui/material";
+import { Container } from "@mui/material";
 
 export const Containment = styled(Container)`
   height: max-content;
-  margin-block: 16rem;
+  margin-block: 16rem 8rem;
   position: relative;
   z-index: 2;
 
   h3 {
-    margin-bottom: 8rem;
     font-size: 3.6rem;
     font-weight: 600;
   }
@@ -24,19 +23,25 @@ export const Containment = styled(Container)`
 export const Center = styled.div`
   display: flex;
   text-align: left;
-  margin-bottom: 8rem;
+  padding-block: 8rem;
+
+  :not(:last-of-type) {
+    border-bottom: 2px solid var(--light-grey);
+  }
 
   div {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 5vw;
   }
 
   h4 {
     font-size: 2.4rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
-    width: 25vw;
+    width: 20vw;
   }
 
   button,
